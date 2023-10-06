@@ -1,0 +1,22 @@
+1. Create a new environment
+
+conda create --name dlenv python==3.6.3 numpy pandas
+
+
+2. Activate the new environment
+
+conda activate dlenv  
+
+
+3. Install the related packages in the dlenv environment (not the base environment)
+
+pip install opencv-python==3.3.0.10 opencv-contrib-python==3.3.0.10
+
+conda install jupyter notebook
+
+pip install jupyter 
+
+
+4. If some of your packages are not working, try to reinstall it.
+
+python3 -m pip install -U scikit-learn
